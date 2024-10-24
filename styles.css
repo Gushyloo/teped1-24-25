@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+    background-color: #222;
+    color: #fff;
+}
+
+h1 {
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: #00ffbb;
+    text-align: center;
+    display: inline;
+    font-family: sans-serif;
+}
+
+a:hover { 
+    color: rgb(0, 157, 255);
+}
+
+a:visited {
+    color: #ff4b69;
+}
+
+
+#caja-enlace-primero, #caja-enlace-segundo {
+    margin: 40px 250px;
+    text-align: center;
+    padding: 60px;
+    background-color: #222;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px #5f5b5b;
+}
