@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">2
     <title>Web el Pais hackers</title>
 </head>
 <body> 
     <header>
-        <div class="barra-inicial"></div>
+        <div class="barra-inicial"> <nav class="navbar">
+            
+            <input type="checkbox" id="menu-toggle">
+            
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+            <ul class="menu">
+                <li><a href="#wearables">Wearables</a></li>
+                <li><a href="#hogarconectado">Hogar conectado</a></li>
+                <li><a href="#cocheautonomo">Coche Autónomo</a></li>
+                <li><a href="#industria4.0">Industria 4.0</a></li>
+                <li><a href="#ciudadinteligente">Ciudad Inteligente</a></li>
+            </ul>
+        </nav></div>
+        
         <img src="img/imagenencabezadoelpais.jpg" alt="encabezado-elpais" class="encabezado">
         <h1>
             Cinco sitios por donde pueden colarse los "hackers" y cómo solucionarlo
@@ -28,7 +42,7 @@
             Todo elemento conectado a una red puede ser el blanco de un ciberataque. De hecho, ya existe un tipo de amenaza, bautizada como “ataque de marionetas” (puppet attack), que aprovecha la vulnerabilidad de los objetos del internet de las cosas para infiltrarse. Si tenemos en cuenta que el año que viene habrá 21.200 millones de dispositivos conectados, según IoT Analytics, la protección del IoT es una tarea crucial, especialmente en estos cinco escenarios.
 
         </p>
-        <img src="img/imagenprimeraelpais.jpg" alt="imagen-wearables-ilustrativa" class="titulos">
+        <img src="img/imagenprimeraelpais.jpg" alt="imagen-wearables-ilustrativa" class="titulos" id="wearables">
         <p>
             Una investigación de la IT University de Copenhague demostró que a través de los sensores de movimiento de un reloj inteligente se pueden <strong> descifrar las contraseñas </strong> que está introduciendo en un teclado el usuario que lleva puesto ese accesorio. 
         </p>
@@ -56,7 +70,7 @@
                     - MSSP. Si los desarrolladores del dispositivo no pueden hacerse cargo de su seguridad, lo ideal es que contraten los servicios de un MSSP, siglas en inglés de proveedor de seguridad gestionada.
                 </li>
         </ul>
-        <img src="img/imagensegundaelpais.jpg" alt="imagen-hogar-conectado-ilustrativa" class="titulos">
+        <img src="img/imagensegundaelpais.jpg" alt="imagen-hogar-conectado-ilustrativa" class="titulos" id="hogarconectado">
         <p>
             Hace dos años, una mujer holandesa denunció que la habían espiado a través de una cámara que instaló en su domicilio para controlar a su cachorro con el móvil. Se dio cuenta del hackeo cuando dejó el teléfono en la mesa y <strong>la cámara se movía</strong> sin que ella diera ninguna orden a través de la app.
         </p>
@@ -84,7 +98,7 @@
                     - Antivirus. Instalar un antivirus que detecte, pare y elimine cualquier ataque en la red a través de programas maliciosos.
                 </li>
         </ul>
-        <img src="img/imagenterceraelpais.jpg" alt="imagen-coche-automatico-ilustrativo" class="titulos">
+        <img src="img/imagenterceraelpais.jpg" alt="imagen-coche-automatico-ilustrativo" class="titulos" id="cocheautonomo">
         <p>
             Uno de los casos de hackeos más sonados fue el de dos estadounidenses expertos en seguridad que accedieron desde sus ordenadores a un <a>Jeep Cherokee.</a>Consiguieron manipular el aire acondicionado, la radio, el limpiaparabrisas y hasta detener el motor del vehículo.
         </p>
@@ -112,7 +126,7 @@
                     - Identificación del dispositivo. Si el vehículo cuenta con su propio identificador, igualmente que los sensores que incorpore, será posible aislarlos en caso de sufrir cualquier ataque.
                 </li>
         </ul>
-        <img src="img/imagencuartaelpais.jpg" alt="imagen-industria-4.0-ilustrativa" class="titulos">
+        <img src="img/imagencuartaelpais.jpg" alt="imagen-industria-4.0-ilustrativa" class="titulos" id="industria4.0">
         <p>
             Kaspersky Lab detectó ataques por software malicioso en más del 40% de los equipos ICS (Sistemas de Control Industrial, en sus siglas en inglés) protegidos por sus soluciones en 2018. Los ciberataques contra estos equipos se consideran una amenaza altamente peligrosa por las importantes pérdidas de información y por el tiempo de inactividad del sistema.
         </p>
@@ -140,7 +154,7 @@
                     - Cifrado de datos. Empleamos un algoritmo para transformar un mensaje, sin atender a su estructura lingüística o significado, de tal forma que sea incomprensible para quien no disponga de una clave secreta.
                 </li>
         </ul>
-        <img src="img/imagenquintaelpais.jpg" alt="imagen-ciudad-inteligente-ilustrativa" class="titulos">
+        <img src="img/imagenquintaelpais.jpg" alt="imagen-ciudad-inteligente-ilustrativa" class="titulos" id="ciudadinteligente">
         <p>
             En 2017, la ciudad estadounidense de Dallas sufrió un ataque contra sus sistemas de emergencia. En plena madrugada, las más de 150 sirenas, pensadas para alertar sobre tormentas o tornados, comenzaron a sonar sin parar. Las autoridades determinaron que todo partió de un hackeo informático contra la red inteligente de la localidad.
         </p>

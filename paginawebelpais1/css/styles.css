@@ -13,14 +13,43 @@ body, html {
     margin: 0;
 }
 
+.navbar {
+    background-color: rgb(19, 66, 77);
+    padding: 10px;
+    position: relative;
+}
+.menu-icon {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Oculto por defecto */
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+
+#menu-toggle {
+    display: none; /* Oculta el checkbox */
+}
+
+#menu-toggle:checked + .menu-icon + .menu {
+    display: block;
+}
+
 .barra-inicial{
     background-color: rgb(19, 66, 77);
     width: 100%;
     height: 40px;
     padding: 0px;
-    position: static;
+    position: fixed;
     top: 0;
-    z-index: 1000;
 }
 
 
