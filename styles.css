@@ -34,7 +34,7 @@ a:visited {
 }
 
 
-#caja-enlace-primero, #caja-enlace-segundo {
+#caja-enlace-primero, #caja-enlace-segundo, #caja-enlace-tercero, #caja-enlace-cuarto {
     margin: 40px 250px;
     text-align: center;
     padding: 60px;
