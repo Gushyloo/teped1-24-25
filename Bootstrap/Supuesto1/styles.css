@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;  
+    margin: 0;    
+}
+.container {
+    height: 100%; /* Esto hace que el contenedor ocupe toda la pantalla */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+}
+
+.column {
+    padding: 20px;
+    background-color: #ff83f5;
+    border: 1px solid #dee2e6;
+    font-family: sans-serif;
+}
+
+.row {
+    flex: 1;
+}

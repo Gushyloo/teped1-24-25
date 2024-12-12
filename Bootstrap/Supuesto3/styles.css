@@ -1,0 +1,31 @@
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para las columnas */
+.column {
+    padding: 20px;
+    background-color: #ff6e6e;
+    border: 1px solid #dee2e6;
+}
+
+/* Estilo para la fila derecha con flexbox */
+.row-right {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para la fila superior */
+.row-right .top {
+    flex: 1;
+    background-color: #ffb4b4;
+}
+
+/* Estilo para la fila inferior */
+.row-right .bottom {
+    flex: 3;
+    background-color: #ff3f3f;
+}

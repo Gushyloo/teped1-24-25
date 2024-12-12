@@ -1,0 +1,19 @@
+.alto {
+    height: 90vh;
+}
+
+.cabecera {
+    height: 15vh;
+}
+
+.grid {
+    place-items: center;
+}
+
+.pie {
+    height: 5vh;
+}
+
+.izquierdo {
+    height: 100vh;
+}
