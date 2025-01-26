@@ -1,0 +1,70 @@
+.seccion-oscura {
+    color: white;
+    background-color: black;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: poppins;
+}
+
+.seccion-texto {
+    font-size: 1rem;
+}
+
+.sobre-mi {
+    height: 500px;
+    padding: 40px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.seccion-clara {
+    color:black;
+    background-color: #b8e4f7;
+    font-family: poppins;
+    font-size: 0.2rem;
+}
+
+/*experiencia*/
+
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia h2 {
+    padding: 10px;
+}
+
+.experiencia p {
+    font-size: 0.7rem;
+}
+.experiencia .row div {
+    height: 250px;
+    background-color: #dff6ff;
+    border: 3px solid white;
+}
+
+.imagenes-experiencia {
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    align-items: center;
+    margin: auto;
+    padding: 10px ;
+}
+
+.experiencia .columna {
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1c2e36;
+}
